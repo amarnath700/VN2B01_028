@@ -1,16 +1,24 @@
 """
 python Variable:
-in python, variable are created when assign values .
+In python,Variables are containers for storing data values
+A variable is created the moment you first assign a value to it .
 A Python variable is a reserved memory location to store values.
 In other words, a variable in a python program gives data to the computer for processing.
 Every value in Python has a datatype.
 python has no command to declaring a variable
+x = 100
+here "x" is variable
+" = " is operator
+" 100 " is value
+
+
+
 """
-num = 80  # write operation dynamically typed program,so no need data type
+num = 80  # write operation, dynamically typed program,so no need data type
 print(num)  # output is 80.
 print(type(num))  # output is int
 print(id(num))
-'''output is 2384604760784. this is value location id.
+'''output is 2384604760784.location id.
 if  we give same values to multiple variables we get same id.
 example:'''
 x = 80
@@ -19,7 +27,7 @@ print(id(x))
 print(id(z))  # for all 3 variables ,we got same value location id.
 y = 25  # write operation
 """
-process of value allocated:
+process of value allocate:
 
 step-1: Load the statement
 
@@ -62,7 +70,7 @@ print(id(y))
   """
 """
 variable names:
-name must and should use alpha,numeric and underscore(_).
+name must and should use only alpha,numeric and underscore(_).
 1. 1st letter starts _(underscore) or letters (lowercase)
 2. Don't use numbers
 3. Don't use keywords ,special symbols
