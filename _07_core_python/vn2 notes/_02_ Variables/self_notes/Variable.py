@@ -4,12 +4,16 @@ In python,Variables are containers for storing data values
 A variable is created the moment you first assign a value to it .
 A Python variable is a reserved memory location to store values.
 In other words, a variable in a python program gives data to the computer for processing.
+Variable also known as identifier and used to hold value
 Every value in Python has a datatype.
 python has no command to declaring a variable
 x = 100
 here "x" is variable
 " = " is operator
 " 100 " is value
+
+LHS -> should always be a variable
+RHS -> finally should become value
 
 
 
@@ -37,13 +41,15 @@ step-3: In R.H.S ,finds the type of data like int, float, boolean, str
 
 step-4: If any expression , it performs the operation.final value, 
 it converts final value into binary format
+Binary value of 25 = 0011001
 
 step-5: Binary value will be allocated some memory
-
+id :2065680499696
 step-6: Memory address will be referred to variable
 this is write operation or create operation
 """
 print(y)
+print(id(y))
 # read operation
 '''
 Read operation:
@@ -90,6 +96,7 @@ variables are case sensitive.
 ex:
 AGE,AGe,AgE,Age,aGe,agE,age
 these are are different variable.
+Note - Variable name should not be a keyword.
 """
 AGE = 1
 AGe = 3
@@ -102,6 +109,7 @@ print(AGE)
 print(AgE)
 print(age)
 print(aGe)
+
 
 x = 25  # value is integer data type
 print(x)
@@ -127,3 +135,6 @@ x = True   # value is boolean data type
 print(x)
 print(type(x))
 print(id(x))
+
+
+
