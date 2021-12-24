@@ -2,6 +2,8 @@
 Token:
     THE smallest individual unit of python program is known as " TOKEN "
 
+There are following tokens in Python:
+identifiers     operator              literals          Keywords    constant    puntuators
 
 Identifier(Names):
         A python identifier is a name used to identify a variable, function,class,module or other object.
