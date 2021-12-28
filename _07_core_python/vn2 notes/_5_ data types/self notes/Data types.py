@@ -11,6 +11,7 @@ Set Types:	set, frozenset
 Boolean Type:	bool
 Binary Types:	bytes, bytearray, memory view
 """
+
 """
 By using print() function we retrieve the data or result in console.
 By using type() function we get data type of value.
@@ -59,7 +60,6 @@ a = complex(y)
 print("Complex value is:", z, type(z), id(z))
 """
 
-
 """
 Text type:
  if we give  value to a variable with in  double quotation is known as sting
@@ -75,7 +75,6 @@ print("value is:", x, type(x), id(x))
 
 x = "Amarnath"
 print("value is:", x, type(x), id(x))
-
 
 #  conversions
 a = 20.5
@@ -105,3 +104,63 @@ print("value is:", y, type(y), id(y))
 x = "Amar"
 y = bool(x)
 print("value is:", y, type(y), id(y))
+
+"""
+Sequence types:
+List -Lists are used to store multiple items in a single variable.
+Lists are one of 4 built-in data types in Python used to store collections of data.
+the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage.
+Lists are created using square brackets:[10.20.30."amar",[1,2,3]]
+
+
+Tuple - Tuples are used to store multiple items in a single variable.
+Tuple is one of 4 built-in data types in Python used to store collections of data. 
+the other 3 are List, Set, and Dictionary, all with different qualities and usage.
+A tuple is a collection which is ordered and unchangeable.
+Tuples are written with round brackets: (10, 20, "Amar")
+"""
+
+print("--------- Example of List ----------")
+x = [10, 20, 30, "Amar"]
+print("value is:", x, type(x), id(x))
+
+print("--------- Example of Tuple ----------")
+y = (10, 20, 30, "Amar")
+print("value is:", y, type(y), id(y))
+
+z = list(y)
+print("value is:", z, type(z), id(z))
+
+a = tuple(x)
+print("value is:", a, type(a), id(a))
+
+"""
+Dictionary
+Dictionaries are used to store data values in key:value pairs.
+A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
+As of Python version 3.7, dictionaries are ordered. In Python 3.6 and earlier, dictionaries are unordered.
+Dictionaries are written with curly brackets, and have keys and values:
+"""
+e = {a: 20, y: 100, "name": "Amar"}
+print("value is:", e, type(e), id(e))
+
+"""
+set type:
+Sets are used to store multiple items in a single variable.
+Set is one of 4 built-in data types in Python used to store collections of data.
+the other 3 are List, Tuple, and Dictionary, all with different qualities and usage.
+A set is a collection which is unordered, unchangeable*, and un-indexed.
+* Note: Set items are unchangeable, but you can remove items and add new items.
+Sets are written with curly brackets. {10,20,30,"amar"}
+"""
+print("--------- Example of Set ----------")
+y = {10, 20, 30, "Amar"}
+print("value is:", y, type(y), id(y))
+
+z = list(y)
+print("value is:", z, type(z), id(z))
+
+m = (10.2, 10.3, 10.5, "nath")
+n = set(m)
+print("value is:", n, type(n), id(n))
+
