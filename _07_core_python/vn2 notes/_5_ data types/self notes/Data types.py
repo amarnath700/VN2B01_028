@@ -1,6 +1,5 @@
 """
 Built in types:
-In programming, data type is an important concept.
 Variables can store data of different types, and different types can do different things.
 Python has the following data types built-in by default, in these categories:
 Text Type:	str
@@ -62,7 +61,8 @@ print("Complex value is:", z, type(z), id(z))
 
 """
 Text type:
- if we give  value to a variable with in  double quotation is known as sting
+ if we give  value to a variable with in  double quotation or single quotation is known as string
+ multiple string  write in triple quotation
  ex: "python language", "100", "565sfd"
  """
 
@@ -108,15 +108,12 @@ print("value is:", y, type(y), id(y))
 """
 Sequence types:
 List -Lists are used to store multiple items in a single variable.
-Lists are one of 4 built-in data types in Python used to store collections of data.
-the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage.
 Lists are created using square brackets:[10.20.30."amar",[1,2,3]]
 
 
 Tuple - Tuples are used to store multiple items in a single variable.
-Tuple is one of 4 built-in data types in Python used to store collections of data. 
-the other 3 are List, Set, and Dictionary, all with different qualities and usage.
 A tuple is a collection which is ordered and unchangeable.
+in case u need to change tuple first convert tuple into list and make change then convert list into tuple 
 Tuples are written with round brackets: (10, 20, "Amar")
 """
 
@@ -147,8 +144,6 @@ print("value is:", e, type(e), id(e))
 """
 set type:
 Sets are used to store multiple items in a single variable.
-Set is one of 4 built-in data types in Python used to store collections of data.
-the other 3 are List, Tuple, and Dictionary, all with different qualities and usage.
 A set is a collection which is unordered, unchangeable*, and un-indexed.
 * Note: Set items are unchangeable, but you can remove items and add new items.
 Sets are written with curly brackets. {10,20,30,"amar"}

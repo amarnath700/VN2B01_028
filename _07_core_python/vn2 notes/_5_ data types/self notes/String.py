@@ -38,3 +38,32 @@ To check if a certain phrase or character is present in a string, we can use the
 x = """hi i am Amarnath Reddy from Andhra pradesh"""
 print("Reddy" in x)
 print("Rao" in x)
+"""
+slicing
+"""
+print(x[6:20])
+print(x[-19:-3])
+
+"""
+Basic Operations:
++, *, len, min, max, membership,iteration
+"""
+
+x = "Amarnath"
+y = "reddy"
+print(x+y)  # +operation
+
+print(x*3)  # * operation
+
+print(len(y))  # length operation
+
+print(min(x))  # min operation
+print(min(y))
+
+print(max(y))
+print(max(x))  # max operation
+
+print("x" in y)
+print("th" in x)
+print("ah" in x)
+
