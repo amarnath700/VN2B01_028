@@ -39,7 +39,7 @@ print(x[1])  # indexing
 print(x[:5])  # slicing
 print(x[5][0])
 
-x = [1, 5.5, 6, 1j, "Amar", "a", [7, 8.5]]
+x = [1, 5.5, 6, 1j, "Amar", "a", 7, 8.5]
 x = set(x)  # conversion
 print(x, type(x))
 # print(x[1])  # indexing
@@ -48,3 +48,10 @@ print(x, type(x))
 x = {'m': 30, 'name': "amar"}
 print(x, type(x))
 print(x['m'])
+
+X = {10, 15, 3, 2}
+print(x, type(x))
+
+x = [10, 20, 30, 10, 20, 30, 10, 20, 30]
+x = list(set(list(x)))
+print(x)
