@@ -13,7 +13,12 @@ An if statement consists of a boolean expression followed by one or more stateme
 The if statement contains a logical expression using which data is compared and a decision is made
 based on the result of the comparison.
 
-Syntax:
+Syntax=
 if expression:
    statement(s)
 """
+if 10 > 5:
+    print("Output Value")
+
+if '0':
+    print("Output Zero")
