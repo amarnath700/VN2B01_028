@@ -15,7 +15,7 @@ else:
 """
 # Take values of length and breadth of a rectangle from user and check if it is square or not.
 
-"""
+
 le = int(input("Enter Value of Length:"))
 br = int(input("Enter Value of Berth:"))
 
@@ -23,8 +23,7 @@ if le == br:
     print("it is a Square")
 else:
     print("it is  a Rectangle ")
-    
-"""
+
 """
 #  Take two int values from user and print greatest among them.
 x = int(input("Enter Value:"))
@@ -41,6 +40,7 @@ Ask user for quantity
 Suppose, one unit will cost 100.
 Judge and print total cost for user.
 """
+"""
 x = 1000
 print(x)
 quantity = float(input("Enter Quantity:"))
@@ -48,3 +48,15 @@ if x <= quantity:
     print("total cost :", quantity-(quantity*0.10))
 else:
     print("purchase is less than 1000:", quantity)
+    
+   """
+
+#  write a code to check no. is divide by 7 or not.
+"""
+x = int(input("enter value:"))
+if x % 7 == 0:
+    print("x is divide by 7:", x)
+else:
+    print("x is not divide by 7")
+
+"""
