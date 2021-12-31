@@ -1,13 +1,12 @@
 # Requirement:
 # steps :
 # state = data type
-# behaviour = buisiness logical implementation
+# behaviour = business logical implementation
 # validation = testing
-
 
 x = float(input(" Enter the amount :"))
 if x >= 10000:
-    print(" your booking confirmed in the flight AR00012 with BUISINESS CLASS ")
+    print(" your booking confirmed in the flight AR00012 with BUSINESS CLASS ")
 elif x >= 5000:
     print(" your booking confirmed in the flight AR00012 with EXECUTIVE CLASS ")
 elif x >= 2000:
