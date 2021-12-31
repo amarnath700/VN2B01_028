@@ -1,0 +1,8 @@
+print("SELECT A NUMBER FROM THE MENU")
+print("-------------------------------------")
+print("\t 1.COFFEE")
+print("\t 2.TEA")
+print("\t 3.MILK")
+print("\t 4.BLACK COFFEE")
+print("\t 5.GREEN TEA")
+print("--------------------------------------")
