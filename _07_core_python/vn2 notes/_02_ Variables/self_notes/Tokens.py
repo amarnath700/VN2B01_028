@@ -1,6 +1,6 @@
 """
 Token:
-    THE smallest individual unit of python program is known as " TOKEN "
+    THE smallest individual unit of python program is known as " TOKEN ".
 
 There are following tokens in Python:
 identifiers     operator              literals          Keywords    constant    puntuators

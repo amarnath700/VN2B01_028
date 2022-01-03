@@ -3,6 +3,9 @@ shop serial primary key,
 name varchar,
 area integer);
 
+drop table market
+
+
 insert into market(name,area) values('Gubber',220);
 insert into market(name,area) values('Rubber',20);
 insert into market(name,area) values('Aubber',2120);
