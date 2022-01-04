@@ -12,11 +12,16 @@ dict1 = {1: 1, 2: 2, 3: 3}  # dictionary
 set1 = {1, 2, 3, 4, 5, 6}   # set
 
 # while
-i = 0
-while i <= 0: # it executes print statement until condition satisfy
-    print(i)
-    i += 1
+course = 'python'
+#while course in course: # it executes print statement until condition satisfy
+#    print(course)
+i = 'hello'
+#while i >= 0:
+ #   print(i)
+  #  i += 5
 
+# while : infinite loop, number of iterations are not known
+# for : we know the number of iterations in advance
 
 # for loop
 '''
@@ -39,14 +44,14 @@ x = 10
 print(x)
 
 msg = 'Python world '
-for element in msg:
-    print("Character : ", element)
+for e in msg:
+    print("Character : ", e)
 # further business logic
 
 # String with for loop
 for char in 'Welcome to Python':
     print("Char : ", char)
-
+print("_____________________________________________________________")
 for char in 'aflkdsfdsalfsdf  324324SDFDSF@!#@!$#@%fsdfsd dsfdsFDSf!@#@!#!@':
     print("Char : ", char)
 
@@ -63,8 +68,9 @@ for val in (1, 2, 3, 4, 5, 6, 7):
 print("----------------------------")
 # Dictionary with for loops
 e_data = {'eid': 100, 'name': 'Madhu Nettem', 'sal': 10000}
-for val in e_data:
-    print("Dict data :", val)
+print(e_data)
+for i in e_data:
+    print("Dict data :", i)
 print("--------------------------------")
 for x in e_data.keys():
     print("Dict key :", x)

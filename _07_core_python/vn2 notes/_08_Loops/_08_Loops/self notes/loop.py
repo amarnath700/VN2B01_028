@@ -7,8 +7,8 @@ there are 2 types of iterative statements:
 1. for loop
 2. while loop
 
-if statement execute 1 time is called iteration.
-if statement execute n times is called n iterations.
+statement execute 1 time is called iteration.
+statement execute n times is called n iterations.
 
 ****important:need to follow in loop
 1. loop variable initialize
@@ -16,9 +16,11 @@ if statement execute n times is called n iterations.
 3. loop variable update.
 """
 """
-
+While loop:
+While Loop is used to repeat a block of code. Instead of running the code block once, 
+It executes the code block multiple times until a certain condition is met.
 syntax:
-while loop:
+
 while condition:
     statement1
     -
@@ -36,7 +38,10 @@ print("End loop")
 
 """
 for loop :
+For loop is used to iterate over elements of a sequence. It is often used when you have a piece of code which 
+you want to repeat “n” number of time.
 syntax:
+
 for variable in sequence or range:
            statement
            
@@ -63,6 +68,7 @@ for i in range(n):
 
 """
 nested loop:
+        nested loop means, we use loop inside the loop.
     BY USING NESTED LOOP, we created out put in rows and columns.
 """
 x = int(input("enter x value"))
