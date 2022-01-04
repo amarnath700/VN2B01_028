@@ -2,7 +2,7 @@
 # Control statements : break continue pass
 # Will use control statements in a while for loops
 """
-REQ: Print first 7 even numbers betweeen 1 to 100
+REQ: Print first 7 even numbers between 1 and 100
     1. Get all numbers from 1 to 100
     2. Filter only even numbers
     3. Get only first 7 even numbers
@@ -12,7 +12,7 @@ REQ: Print first 7 even numbers betweeen 1 to 100
             21  22 23 24 25 26 27 28 29 30......
 
             first 3 even numbers
-                    solution                   roguht work                      count
+                    solution                   roguish work                      count
               | 2 4 6 8 10 12 14        | 1%2 == 0 2%2 == 0                  3
                                           3%2 == 0 4%2 == 0
                                           5%2 == 0 6%2 == 0  Stops here
