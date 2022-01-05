@@ -47,10 +47,10 @@ while i >= 1:
   101
    1
    """
-i = 5
+i = 3
 j = 3
-while i >= 1:
+while i >= 0:
     a = " " * j + "10" * i + "1"
     print(a)
-    i = i - 3
-    j = j + 2
+    i = i - 1
+    j = j + 1
