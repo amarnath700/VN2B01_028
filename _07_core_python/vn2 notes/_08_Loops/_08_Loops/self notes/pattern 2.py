@@ -17,4 +17,3 @@ while i >= 5:
                 if i >= 2:
                     print("1" * (i - 4))
 
-    i = i - 1
