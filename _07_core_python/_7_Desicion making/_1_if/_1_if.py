@@ -221,7 +221,7 @@ False False*      -- False
 
 #if-statement
 name = 'vnsquare'
-if(name==''):
+if name== '':
     print("if condition fails")
 if None:
     print("checking None exec:")
