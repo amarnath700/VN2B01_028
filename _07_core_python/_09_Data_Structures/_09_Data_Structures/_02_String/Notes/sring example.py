@@ -26,13 +26,17 @@ print(x.islower())  # islower is checked given character all leters in lowercase
 # anyone letters upper case in string print "false".
 print(x.isupper())  # opposite to islower.
 print(x.istitle())  # every word start with capital letter.remaining letter must be small.
-
 a = "am\tar\tnath"
-print(a.expandtabs(2))
-
-
-
-
-
-
+print(a.expandtabs(2))  # Sets the tab size of the string
+print(len(x))  # return length of list.
+print(x.lower())  # convert all word into lower case.
+print(a.upper())  # convert all word into upper case.
+print(" ".join(x))
+print(a.ljust(20), "Lenovo")  # create space b/w fist value and second value
+print(x.maketrans("H", "F"))
+y = x.maketrans("A", "a")
+print(x.translate(y))
+print(x)
+print(x.partition("MY"))
+print(x.replace("MY", "OUR"))
 
