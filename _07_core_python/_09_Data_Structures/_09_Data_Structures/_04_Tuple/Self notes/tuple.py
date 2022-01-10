@@ -62,3 +62,28 @@ print("tuple:", x, type(x))
 x = x + x
 print(x)
 
+# x.remove(10) tuple is immutable.so, add and remove are won't work
+# print(x)
+
+# remove
+print("*****  Tuple value  *****")
+print(x)
+x = list(x)  # converting tuple to list
+print("convert tuple to list:", x, type(x))
+x.remove("nath")  # by using remove value into list
+print("list:", x, type(x))
+x = tuple(x)  # converting list to tuple
+print("tuple:", x, type(x))
+
+# count
+y = x.count(2.5)
+print(y)
+
+
+
+# delete
+print("*****  Tuple value  *****")
+print(x)
+del x
+print(x)
+

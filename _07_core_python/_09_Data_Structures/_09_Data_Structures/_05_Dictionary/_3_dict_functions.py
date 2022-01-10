@@ -113,9 +113,9 @@ print("-----------8 . has_key() ----------")
 
 dict1 = {1: 1, 2: 2, 'Hello': 'Madhu'}
 
-print("Has key : ", dict1.has_key('Hello'))
-print("Has key : ", dict1.has_key(1))
-print("Has key : ", dict1.has_key(10))
+#print("Has key : ", dict1.has_key('Hello'))
+#print("Has key : ", dict1.has_key(1))
+#print("Has key : ", dict1.has_key(10))
 
 '''
 pop() popitem() setdefault()
@@ -145,7 +145,7 @@ print("Employee mobile  : ", e_data['mobile'])
 # print("Employee name : ", e_data['company'])  # ERROR
 print("Employee company : ", e_data.get('company'))  # to avoid exception
 print("Employee sal     : ", e_data.get('sal', 0))
-print("Employee company : ", e_data.get('company', 'ORACLE'))  # to set default value if key doesnot exists
+print("Employee company : ", e_data.get('company', 'ORACLE'))  # to set default value if key doesn't exists
 
 
 print("Employee name : ", e_data.get('name'))
