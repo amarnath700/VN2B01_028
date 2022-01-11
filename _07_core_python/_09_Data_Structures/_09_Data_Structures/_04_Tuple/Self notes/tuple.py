@@ -38,9 +38,6 @@ for i in range(len(x)):
 # length
 print(len(x))
 
-# membership
-if "Amar" not in x:
-    print(id('Amar'))
 
 # by using type casting we can Add values into tuple.below are steps
 # convert into list.
@@ -77,7 +74,7 @@ print("tuple:", x, type(x))
 
 # count
 y = x.count(2.5)
-print(y)
+print("count:",y)
 
 
 
@@ -85,5 +82,5 @@ print(y)
 print("*****  Tuple value  *****")
 print(x)
 del x
-print(x)
+
 
