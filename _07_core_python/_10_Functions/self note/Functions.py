@@ -14,6 +14,11 @@ in python function multi-value return can be done(in tuple).
 Function call:
 
 function call have function name and parameters or arguments which are all equal to the function definition.
+def add(a,b):
+in this a,b are the parameters
+
+res = add(a, b)  # function call
+a,b are the arguments
 """
 
 

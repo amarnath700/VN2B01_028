@@ -51,9 +51,9 @@ Feature of Python:
 
 
 
-Important Questions: 1. Introduction: How interpreter works in python? A.	Python is processed at runtime by
-interpreter .you do not need any compiler your program before executing it. In python interpreter,
-execute line-by-line execution.
+Important Questions: 1. Introduction: How interpreter works in python?
+A.	Python is processed at runtime by interpreter .you do not need any compiler your program before executing it.
+In python interpreter,execute line-by-line execution.
 
 
 Python features
@@ -102,7 +102,7 @@ object-oriented programming:
 In object-oriented programming, program is divided into small parts called objects.
 Object-oriented programming have access specifiers like private, public, protected etc.
 Adding new data and function is easy.
-Object-oriented programming provides data hiding so it is more secure.
+Object-oriented programming provides data hiding, so it is more secure.
 Overloading is possible in object-oriented programming.
 In object-oriented programming, data is more important than function.
 Object-oriented programming is based on real world.
@@ -202,3 +202,7 @@ Automatic garbage collection
 
 
 """
+my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+# stat from index 1 with step 2( means 1, 3, 5, an so on)
+for i in my_list[1::2]:
+    print(i, end=" ")
