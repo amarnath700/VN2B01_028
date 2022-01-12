@@ -46,3 +46,51 @@ for i in x:
     y.append(type(i))
 print(y)
 
+#  loop through a tuple of mixed data type and extract only integer values
+x = (1, 2, 'apple', 3, 4, 'orange')
+y = []
+for i in x:
+    if type(i) == int:
+        y.append(i)
+print(y)
+
+# Tuple unpacking: extract tuples stored in a list
+x = [(1, 2), (3, 4), (5, 6)]
+list1 = []
+list2 = []
+for i, j in x:
+    list1.append(i)
+    list2.append(j)
+print(list1)
+print(list2)
+
+# Python dictionary
+x = {"apple": 2.50, "orange": 4.99, "banana": 0.59}
+
+# Access all the keys in a dictionary
+for i in x.keys():
+    print(i)
+
+# Access all the values in a dictionary
+for i in x.values():
+    print(i)
+
+# Access both the keys and the values together from a dictionary
+for i, j in x.items():
+    print('Key: ', i)
+    print(f'Value: {j}')
+
+# Find an average of all values in a dictionary
+val = []
+for i in x.values():
+    val.append(i)
+    aver = sum(val) / len(val)
+print(aver)
+
+# Updating values: reduce all values by 25%
+# (in a practical application it would be like giving a 25% discount on all fruits)
+for i, j in x.items():
+    print('Key: ', i)
+    print(f'Value: {j - (j * 0.25)}')
+
+#
