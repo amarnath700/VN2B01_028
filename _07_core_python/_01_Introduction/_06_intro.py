@@ -11,6 +11,14 @@ print(type(x))
 
 
 y = "vn2 solutions"
-print("Data type of y",type(y))
+print("Data type of y", type(y))
 
 # output <class 'str'>
+
+
+x = [1, 11, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6]
+print(x)
+print(type(x))
+x1 = list(set(x))
+print(x1)
+print(type(x1))
