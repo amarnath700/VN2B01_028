@@ -1,11 +1,11 @@
 
 '''
-Decision Making :
-There comes some situtaion where we need to take some decison ,
+Decision-Making :
+There comes some situation where we need to take some decison ,
 on that decision  further execution  of the code depends.
 
-Decision making statements decides the output or result of a program.
-In python we can make decision using –
+Decision-making statements decides the output or result of a program.
+In python, we can make decision using –
 
 If Statement
 If -Else statements if, else
@@ -16,8 +16,8 @@ Short-Hand If statement
 
 
 If-Statement :
-If statement is the simplest decision making statemet in Python programming.
-It is use to decide weather a particular statement is True or not.
+If statement is the simplest decision-making statement in Python programming.
+It is used to decide weather a particular statement is True or not.
 If the condition holds true , the statement inside the’IF’ will execute else it will not.
 
 Syntax :
@@ -29,8 +29,8 @@ if x = 10 :
      #statements
 
 #if-statement
-me=‘Prepster’
-if(me==‘Prepster’):
+me=‘prepstr’
+if(me==‘prepstr’):
     print(‘Welcome to PrepInsta’)
 Output :
 
@@ -54,19 +54,19 @@ decision making-if-else in-python
 #pyhton program
 #if-else statement
 me=‘Xyz’
-if(me==‘Prepster’):
+if(me==‘prepstr’):
     print(‘Welcome to PrepInsta’)
 else :
-    print(‘You are welcome to become a Prepster.’)
+    print(‘You are welcome to become a prepstr.’)
 Output :
 
-You are welcome to become a Prepster.
+You are welcome to become a prepstr.
 
 
 Nested If :
 Nested if statement means an If statement under another If statement  and Python allows us to do So.
 If we have to take some decisions on the basis of two or more condition  we can use nested-if statements.
-Synatx :
+Syntax :
 
   if ( condition1):
 
@@ -85,13 +85,13 @@ me=‘Xyz’
 if(me):
     print(‘Welcome to PrepInsta’)
     if(me==‘Xyz’):
-        print(‘You are welcome to become a Prepster.’)
+        print(‘You are welcome to become a prepstr.’)
 Output :
 
 Welcome to PrepInsta
-You are welcome to become a Prepster.
+You are welcome to become a prepstr.
 If-elif Ladder :
-When we have multiple condition to check and excute according to the given condition , we can use if-elif-ladder.
+When we have multiple condition to check and execute according to the given condition , we can use if-elif-ladder.
 It’s upto us that we want to use a else portion in the code.
 It follows top-down approach.
 
@@ -121,11 +121,11 @@ elif(condition2):
 #pyhton program
 #if-elif statement
 me=”
-if(me==‘Prepster’):
+if(me==‘prepstr’):
     print(‘Welcome to PrepInsta’)
 
-elif(me!=‘PrepSter’ and len(me)>0):
-    print(‘You are welcome to become a Prepster.’)
+elif(me!=‘PrepStr’ and len(me)>0):
+    print(‘You are welcome to become a prepstr.’)
 else:
     print(‘You should not be here.’)
 
@@ -150,18 +150,18 @@ Syntax :
 #pyhton program
 #Shirt hand if statement
 me=‘Xyz’
-if(me==‘Xyz’): print(‘You are welcome to become a Prepster.’)
+if(me==‘Xyz’): print(‘You are welcome to become a Prepstr.’)
 
 #Shirt hand if-else statement
-me=‘Prepster’
-print(‘You are welcome to become a Prepster.’) if(me==‘Xyz’) else print(‘Welcome To PrepInsta’)
+me=‘prepstr’
+print(‘You are welcome to become a Prepstr.’) if(me==‘Xyz’) else print(‘Welcome To PrepInsta’)
 
 
 
 
 Output :
 
-You are welcome to become a Prepster.
+You are welcome to become a Prepstr.
 Welcome To PrepInsta
 
 
