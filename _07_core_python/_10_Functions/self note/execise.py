@@ -1,5 +1,5 @@
 # Write a program to create a function that takes two arguments, name and age, and print their value.
-"""def person(name, age):
+def person(name, age):
     print(name, age)
 
 
@@ -157,4 +157,15 @@ def area_circle(r):
 
 r = int(input("enter the radius:"))
 area_circle(r)
+
 """
+lambda function:
+# Write a function which takes two arguments: a and b and returns the multiplication of them: a*b. 
+Assign it to a variable named: f.
+"""
+f = lambda a, b: a * b
+print(f(3, 6))
+
+
+
+

@@ -109,3 +109,19 @@ def display(*course):
 
 
 display("java", "python", "c- lang", "c++ lang")
+
+"""
+Anonymous function or lambda functions:
+        * this function do not defined by def keyword.
+        * return expression but not value
+        * one-line function
+        * cannot access global variable
+        * defined by using lambda keyword
+        * this function allow any no. of arguments
+        syntax:
+            lambda arguments:expression
+        """
+print()
+
+y = lambda a, b: a + b
+print(y(20, 30))
