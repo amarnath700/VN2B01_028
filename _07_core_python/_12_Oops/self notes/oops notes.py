@@ -97,10 +97,48 @@ l1.detail()
 l2.detail()
 
 """
+Python Inheritance
+Inheritance allows us to define a class that inherits all the methods and properties from another class.
+Parent class is the class being inherited from, also called base class.
+Child class is the class that inherits from another class, also called derived class.
+Create a Parent Class:
+Any class can be a parent class, so the syntax is the same as creating any other class
+"""
+
+
+class Person:
+    def __init__(self, fname, lname):
+        self.firstname = fname
+        self.lastname = lname
+
+    def printname(self):
+        print(self.firstname, self.lastname)
+
+
+# Use the Person class to create an object, and then execute the printname method:
+
+x = Person("John", "Doe")
+x.printname()
+"""
+Create a Child Class
+To create a class that inherits the functionality from another class, 
+send the parent class as a parameter when creating the child class
+"""
+
+
+class Student(Person):
+    pass
+
+
+"""
 Inheritance:
     Inheritance is a feature used in object-oriented programming; 
     it refers to defining a new class with less or no modification to an existing class. 
     The new class is called derived class and from one which it inherits is called the base. 
     Python supports inheritance; it also supports multiple inheritances. 
     A class can inherit attributes and behavior methods from another class called subclass or heir class.
+    
+    Syntax:
+        class DerivedClass(BaseClass):
+            body_of_derived_class
 """
