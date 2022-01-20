@@ -78,6 +78,7 @@ class Derivedclass(Baseclass):
         print("Derived class")
 
 
+print("******* Single inheritance *******")
 dobject = Derivedclass()
 dobject.ddisplay()
 dobject.bdisplay()
@@ -120,6 +121,7 @@ class C(B):
         print("Derived class")
 
 
+print("******* Multi-Level inheritance *******")
 print("******* Derived class *******")
 
 c_object = C()
@@ -138,7 +140,6 @@ print("******* SUPER CLASS *******")
 a_object = A()
 a_object.adisplay()
 
-
 """
 Hierarchical Inheritance:
 
@@ -146,4 +147,111 @@ In Hierarchical inheritance, more than one child class is derived from a single 
 In other words, we can say one parent class and multiple child classes.
 
 
+                                                    Base class
+                                                        |
+                                                        |
+                            ____________________________________________________________________
+                            |                       |                   |                       |
+                            |                       |                   |                       |
+    derived class1(Base class)   derived class 2(Base class)  derived class 3 (Base class)   derived class n(Base class)
+
+
 """
+
+
+class Bclass:
+    def bassdisplay(self):
+        print("Bass class")
+
+
+class Dclass_1(Bclass):
+    def d1display(self):
+        print("derived class - 1")
+
+
+class Dclass_2(Bclass):
+    def d2display(self):
+        print("derived class - 2")
+
+
+class Dclass_3(Bclass):
+    def d3display(self):
+        print("derived class - 3")
+
+
+print("******* Hierarchical inheritance *******")
+print("******* Derived 3 class *******")
+d3_object = Dclass_3()
+d3_object.d3display()
+d3_object.bassdisplay()
+
+print("******* Derived 2 class *******")
+d2_object = Dclass_2()
+d2_object.d2display()
+d2_object.bassdisplay()
+
+print("******* Derived 1 class *******")
+d1_object = Dclass_1()
+d1_object.d1display()
+d1_object.bassdisplay()
+
+"""
+Multiple Inheritance:
+
+In multiple inheritance, one child class can inherit from multiple parent classes. 
+So here is one child class and multiple parent classes.
+
+    Baseclass-1     Baseclass-2     Baseclass-3     Baseclass-4     Baseclass-5     Baseclass-6
+    |                   |               |               |               |               |
+    -------------------------------------------------------------------------------------
+                                                |
+    Derived class (Baseclass-1,Baseclass-2,Baseclass-3,Baseclass-4.Baseclass-5,Baseclass-6)
+                                            
+"""
+
+
+class B1:
+    def b1display(self):
+        print("Baseclass-1")
+
+
+class B2:
+    def b2display(self):
+        print("Baseclass-2")
+
+
+class B3:
+    def b3display(self):
+        print("Baseclass-3")
+
+
+class B4:
+    def b4display(self):
+        print("Baseclass-4")
+
+
+class B5:
+    def b5display(self):
+        print("Baseclass-5")
+
+
+class B6:
+    def b6display(self):
+        print("Baseclass-6")
+
+
+class Dclass(B1, B2, B3, B4, B5, B6):
+    def ddisplay(self):
+        print("Derived class")
+
+
+print("******** Multiple Inheritance *******")
+
+d_object = Dclass()
+d_object.ddisplay()
+d_object.b1display()
+d_object.b6display()
+d_object.b4display()
+d_object.b5display()
+d_object.b2display()
+d_object.b3display()
