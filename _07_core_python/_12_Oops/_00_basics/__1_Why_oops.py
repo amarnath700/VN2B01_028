@@ -1,12 +1,14 @@
 # Object Oriented Programming System:
 
 '''
-Class/Object & Method
+Class - group of objects
+Object - it is entity with state and behaviour and it need while create class and allocate some memory location
+& Method - it is a function that is associated with an object.
 ------------------
-Encapsulation
-Abstraction
-Inheritance
-Polymorphism
+Encapsulation - binding/ combining data and methods
+Abstraction - hiding data and show functionality
+Inheritance - inherits the properties of one class to another class
+Polymorphism - different approaches
 '''
 
 # REQUIREMENT : Find Sum of  given two numbers
