@@ -4,7 +4,6 @@ method overriding:
 It is a language feature that allows a subclass or child class to provide a specific implementation of a method
 which is already provided by one of its super classes or parent classes.
 """
-import self as self
 
 
 class Vehical:
@@ -18,17 +17,22 @@ class Vehical:
 
 
 class Vehical1(Vehical):
+
     def __init__(self):
         self.model = "TATA safari"
         self.type = "petrol"
 
     def disv(self):
+
         print("vehical:", self.model)
         print("vehical:", self.type)
 
 
 veh1 = Vehical1()
 veh1.disv()
+veh = Vehical()
+veh.disv()
+
 """
 method overloading:
     There is a concept where two or more methods can have the same name. 
@@ -46,5 +50,3 @@ mul(20, 30)
 mul(20, 20, 20)
 print(mul(20, 30))
 print(mul(20, 20, 20))
-
-
