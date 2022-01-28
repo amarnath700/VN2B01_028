@@ -1,13 +1,14 @@
 """
 Destructor:
-Destructors are called when an object gets destroyed. In Python, destructors are not needed as much as in C++ because Python has a garbage collector that handles memory management automatically.
-The __del__() method is a known as a destructor method in Python. It is called when all references to the object have been deleted i.e when an object is garbage collected.
+Destructors are called when an object gets destroyed.
+The __del__() method is a known as a destructor method in Python.
+It is called when all references to the object have been deleted i.e when an object is garbage collected.
 Syntax of destructor declaration :
 
 def __del__(self):
   # body of destructor
 """
-"""
+
 
 class Bike:
     def __init__(self):
@@ -27,10 +28,11 @@ class Vehicles(Bike):
 
 v = Vehicles()
 v.ty1()
+print("*****  destractor *****")
 
 v.ty()
-"""
 
+"""
 # program
 
 class Tour:
@@ -55,3 +57,4 @@ p1 = Place1()
 p1.place1()
 p = Place()
 p.place()
+"""
