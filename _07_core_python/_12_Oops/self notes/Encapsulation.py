@@ -33,12 +33,15 @@ i = "head"
 j = "stomach"
 k = "legs"
 d = DerivedClass(i, j, k)
+print("***** using derived class object *****")
 d.bottom()
 d.top_bottom()
 
 b = BaseClass(i, j, k)
-
+print("***** using Base class object")
 b.top_bottom()
 b.top()
 # b.bottom()
-
+print("***** using Superclass object *****")
+s = SuperClass(i, j, k)
+b.top_bottom()

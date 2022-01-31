@@ -28,7 +28,7 @@ class Vehicles(Bike):
 
 v = Vehicles()
 v.ty1()
-print("*****  destractor *****")
+print("*****  detractor *****")
 
 v.ty()
 
