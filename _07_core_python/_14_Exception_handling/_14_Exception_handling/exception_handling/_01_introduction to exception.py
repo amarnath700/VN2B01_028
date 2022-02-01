@@ -9,7 +9,7 @@ Error in Python can be of two types i.e. Syntax errors and Exceptions(logical er
 Errors are the problems in a program due to which the program will stop the execution.
 On the other hand, exceptions are raised when some internal events occur which changes the normal flow of the program.
 
-Difference between Syntax Error and Exceptions
+Difference between Syntax Error and Exceptins
 Syntax Error: As the name suggests this error is caused by the wrong syntax in the code.
 It leads to the termination of the program.
 
