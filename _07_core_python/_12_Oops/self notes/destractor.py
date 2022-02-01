@@ -32,7 +32,7 @@ print("*****  detractor *****")
 
 v.ty()
 
-"""
+
 # program
 
 class Tour:
@@ -57,4 +57,3 @@ p1 = Place1()
 p1.place1()
 p = Place()
 p.place()
-"""
