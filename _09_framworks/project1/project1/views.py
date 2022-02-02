@@ -7,4 +7,4 @@ def home(request):
 
 
 def main(request):
-    return HttpResponse("welcome to Django")
+    return render(request, "main.html", {"name": "Viveka"})
