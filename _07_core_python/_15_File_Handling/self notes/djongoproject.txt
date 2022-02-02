@@ -1,0 +1,11 @@
+Creating a Project
+Lets’ check how to create a basic project using Django after you have installed it in your pc.
+•	To initiate a project of Django on Your PC, open Terminal and Enter the following command
+django-admin startproject projectName
+•	A New Folder with name projectName will be created. To enter in the project using terminal enter command
+cd projectName
+Now run,
+Python manage.py runserver
+Now visit http://localhost:8000/,
+ 
+
