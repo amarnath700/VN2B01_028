@@ -42,6 +42,12 @@ with open(r"C:\Users\Ironm\Desktop\all_in_1.txt", "a+") as file5:
     file5.write("present i working im 'A+' pvt ltd \n")
     # Reading form a file
     print("file5 output", file5.read())
+    
+    
+file6 = open(r"C:\Users\Ironm\Desktop\all_in_1.txt", "a+")
+file6.write("present i working im 'A+' pvt ltd \n")
+    # Reading form a file
+    print("file5 output", file6.read())
 
 """
 
