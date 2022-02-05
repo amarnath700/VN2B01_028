@@ -11,10 +11,12 @@ The from argument specifies the reference position from where the bytes are to b
 
 # tell method.
 f = open(r'hello.txt', 'r')
-f.read(5)
+f.read()
 # tell method
 # n = int(input("enter cursor value:"))
-print(f.tell())
+s = f.tell()
+print(s)
+
 
 # seek method.
-s = f.seek(2, 0)
+

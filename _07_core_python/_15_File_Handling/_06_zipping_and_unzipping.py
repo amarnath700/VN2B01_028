@@ -1,5 +1,5 @@
 '''
-zipping-file contents compressed and size will reduced
+zipping-file contents compressed and size will reduce
 
 Python zip() method takes iterable or containers and returns a single iterator object,
 having mapped values from all the containers.

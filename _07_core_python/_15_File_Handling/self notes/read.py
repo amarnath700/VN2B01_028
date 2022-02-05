@@ -28,7 +28,7 @@ There is more than one way to read a file in Python.
 If you need to extract a string that contains all characters in the file then we can use file.read().
 """
 
-file1 = open('djongoproject.txt', 'r')
+file1 = open('zdjongoproject.txt', 'r')
 print(file1.read())
 
 # Python code to illustrate with()
