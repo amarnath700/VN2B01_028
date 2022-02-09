@@ -33,6 +33,8 @@ def validate_numbers(func): # func = sum
             print("Please enter Positive numbers only")
     return wrapper
 '''
+
+
 def validate_nums(func):  # validate_numbers(sum)
     def wrapper(*args, **kwargs):
         if args[0] >= 0 and args[1] >= 0:
@@ -42,22 +44,24 @@ def validate_nums(func):  # validate_numbers(sum)
             return output
         else:
             print("Please enter Positive numbers only")
-    return wrapper   # wrapper(10,20)
+
+    return wrapper  # wrapper(10,20)
+
 
 # validate_nums = value <func addreess>
 
 # LAYER2 : SERVICE LAYER
 @validate_nums
-def sum(num1, num2):     #  business logic
+def sum(num1, num2):  # business logic
     res = num1 + num2
     return res
 
+
 # LAYER1 : CONTROLLER LAYER
 n1 = int(input("Enter number 1  :"))
-n2 = int(input("Enter number 2  :"))        # 1. n1,n2 will come from UI,receive into python code
-result = sum(n1, n2)                        # 2. call service layer method and get the end response
+n2 = int(input("Enter number 2  :"))  # 1. n1,n2 will come from UI,receive into python code
+result = sum(n1, n2)  # 2. call service layer method and get the end response
 print("Sum of given numbers is :", result)  # 4. Return response and display in UI
-
 
 '''
 Step1 : Our function call will be divided into 2 parts
@@ -74,11 +78,15 @@ Step3 : Python will execute wrapper function by combing arguments
           If success : performs the method call 
           else       : returns exception message    
 '''
+
+
 @validate_nums
-def sub(n1,n2):
+def sub(n1, n2):
     pass
+
+
 @validate_nums
-def mul(n1,n2):
+def mul(n1, n2):
     pass
 
 
@@ -88,12 +96,14 @@ def validate_den(func):
             return "Denominator should not be 0"
         output = func(*args, **kwargs)
         return output
+
     return wrapper
 
 
 @validate_den
 def div(n1, n2):
-    res = n1/n2
+    res = n1 / n2
     return res
+
 
 print("Division Result is : ", div(10, 0))
