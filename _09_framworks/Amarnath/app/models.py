@@ -4,7 +4,6 @@ from datetime import datetime
 
 # Create your models here.
 class Documents(models.Model):
-    _objects = object
     Title = models.CharField(max_length=25)
     Description = models.TextField()
     Attachments = models.FileField(upload_to="Files/")
@@ -14,7 +13,5 @@ class Documents(models.Model):
     def __str__(self):
         return self.Title
 
-    @property
-    def objects(self):
-        return self._objects
+   
 
